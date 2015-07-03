@@ -1,0 +1,103 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 24AA025E48
+D Microchip 24AA025E48
+$ENDCMP
+#
+$CMP 74AHCT1G08
+D Single 2 input positive AND gate
+K AND gate logic 74AHCT 74AH
+$ENDCMP
+#
+$CMP 74LVC1G125
+D Single Bus Buffer Gate with 3-state Output (DBV or DCK package)
+K SN74LVC1G125
+$ENDCMP
+#
+$CMP 78XX
+D 78XX series linear regulators
+K linear regulator
+$ENDCMP
+#
+$CMP ARDUINO_DUE_SHIELD
+D Original by nicholasclewis
+K Arduino
+F http://www.thingiverse.com/thing:9630
+$ENDCMP
+#
+$CMP ARDUINO_FOOTPRINT
+D Arduino board device footprint (power inputs). Original by nicholasclewis
+K arduino
+F http://www.thingiverse.com/thing:9630
+$ENDCMP
+#
+$CMP ARDUINO_MEGA_SHIELD
+D Original by nicholasclewis
+K arduino mega
+F http://www.thingiverse.com/thing:9630
+$ENDCMP
+#
+$CMP ARDUINO_SHIELD
+D Arduino shield footprint (power outputs). Original by nicholasclewis
+K arduino
+F http://www.thingiverse.com/thing:9630
+$ENDCMP
+#
+$CMP ATSAM3X8E
+D ATSAM3X8E 32-bit ARM MCU
+F http://www.atmel.com/devices/SAM3X8E.aspx?tab=documents
+$ENDCMP
+#
+$CMP BUZZER
+K buzzer piezo sound
+$ENDCMP
+#
+$CMP CONN_26
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
+$CMP JOYSTICK_W_BUTTON
+D Mini Joystick with button, similar to PS2 controller joystick
+K joystick button ps2
+$ENDCMP
+#
+$CMP LM2734Y
+D LM2734 Thin SOT 1A Load Step-Down DC-DC Regulator
+$ENDCMP
+#
+$CMP MAX3002
+D MAX3000E/MAX3001E/MAX3002 QFN package
+K bidirectional level shifter
+$ENDCMP
+#
+$CMP MC74VHCT50A
+D Hex noninverting buffer / CMOS Logic Level Shifter
+$ENDCMP
+#
+$CMP PI_PLUS_CON
+D Raspberry Pi revision 2 P1 connector pinout
+K raspberry pi
+$ENDCMP
+#
+$CMP POWERJACK
+D DC Jack
+$ENDCMP
+#
+$CMP RASPBERRY_PI_P1
+D Raspberry Pi revision 2 P1 connector pinout
+K raspberry pi
+$ENDCMP
+#
+$CMP RASPBERRY_PI_PLUS_CON
+D Raspberry Pi revision 2 P1 connector pinout
+K raspberry pi
+$ENDCMP
+#
+$CMP W5100
+D Wiznet W5100
+K W5100 Ethernet
+F http://www.wiznet.co.kr/UpLoad_Files/ReferenceFiles/W5100_Datasheet_v1.2.2.pdf
+$ENDCMP
+#
+#End Doc Library

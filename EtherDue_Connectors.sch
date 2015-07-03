@@ -1,0 +1,820 @@
+EESchema Schematic File Version 2
+LIBS:EtherDue-rescue
+LIBS:freetronics_kicad_sch_lib
+LIBS:EtherDue-cache
+LIBS:EtherDue_Connectors-cache
+LIBS:EtherDue_Ethernet-cache
+LIBS:EtherDue_MCU-cache
+LIBS:EtherDue_Mega16U2-cache
+LIBS:EtherDue_peripherals-cache
+LIBS:EtherDue_Power-cache
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:zeilhofer
+LIBS:w_transistor
+LIBS:w_logic
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 20
+Title "High Frequency Power Amplifier Monitor on EtherDue"
+Date "2015-03-07"
+Rev "20150308.4"
+Comp "(C) 2014 Freetronics Pty Ltd"
+Comment1 ""
+Comment2 "Derived from EtherDue - (C) 2014 Freetronics Pty Ltd"
+Comment3 "Licensed under Creative Commons Share-Alike"
+Comment4 "KiCad Project by www.zeilhofer.co.at"
+$EndDescr
+Wire Notes Line
+	4600 5600 8600 5600
+Wire Notes Line
+	8600 5600 8600 500 
+Wire Wire Line
+	10250 1600 9200 1600
+Wire Wire Line
+	9200 1600 9200 1900
+Connection ~ 6900 5100
+Wire Wire Line
+	6250 5100 7250 5100
+Connection ~ 6250 5100
+Connection ~ 6900 4400
+Wire Wire Line
+	6900 4600 6900 4400
+Connection ~ 5300 4850
+Connection ~ 6250 4850
+Wire Wire Line
+	5200 4850 6250 4850
+Wire Wire Line
+	6250 4600 6250 5350
+Wire Wire Line
+	6250 4600 5700 4600
+Wire Wire Line
+	5700 4300 8050 4300
+Connection ~ 7450 4050
+Wire Wire Line
+	7150 3950 7150 4050
+Wire Wire Line
+	7150 4050 8050 4050
+Wire Wire Line
+	8050 4050 8050 4150
+Connection ~ 7450 3550
+Connection ~ 6000 3550
+Connection ~ 6250 3550
+Connection ~ 5200 1500
+Wire Wire Line
+	5200 1500 5450 1500
+Connection ~ 6850 700 
+Wire Wire Line
+	5200 700  7250 700 
+Connection ~ 6250 700 
+Connection ~ 7250 1700
+Wire Wire Line
+	7250 1200 7250 1850
+Connection ~ 6850 1600
+Wire Wire Line
+	6850 1200 6850 1800
+Connection ~ 6250 1300
+Wire Wire Line
+	6250 1200 6250 1800
+Wire Wire Line
+	2400 2000 1500 2000
+Wire Wire Line
+	3650 1750 3650 1800
+Wire Wire Line
+	3650 1800 3500 1800
+Wire Wire Line
+	4050 2000 4050 2500
+Wire Wire Line
+	4050 2500 3500 2500
+Wire Wire Line
+	3500 5150 3500 5250
+Wire Wire Line
+	1600 5450 1600 5350
+Wire Wire Line
+	1600 3200 1600 3100
+Wire Wire Line
+	1150 2550 1150 3000
+Wire Wire Line
+	1150 3000 1600 3000
+Wire Wire Line
+	1600 2700 1300 2700
+Wire Wire Line
+	1600 2800 1500 2800
+Wire Wire Line
+	1300 2900 1600 2900
+Wire Wire Line
+	1300 2550 1300 2900
+Connection ~ 1300 2700
+Wire Wire Line
+	1600 3300 1000 3300
+Wire Wire Line
+	1000 3300 1000 2550
+Wire Wire Line
+	1600 3100 1150 3100
+Wire Wire Line
+	1600 5350 1300 5350
+Wire Wire Line
+	1300 5350 1300 5400
+Wire Wire Line
+	3750 5200 3750 5250
+Wire Wire Line
+	3750 5250 3500 5250
+Wire Wire Line
+	3500 2000 4350 2000
+Wire Wire Line
+	4350 2000 4350 2250
+Connection ~ 4050 2000
+Wire Wire Line
+	1500 2800 1500 2000
+Wire Wire Line
+	5950 1300 7600 1300
+Wire Wire Line
+	5950 1400 7600 1400
+Wire Wire Line
+	5950 1500 7600 1500
+Wire Wire Line
+	5950 1600 7600 1600
+Wire Wire Line
+	5950 1700 7600 1700
+Wire Wire Line
+	6550 1200 6550 1800
+Connection ~ 6550 1400
+Wire Wire Line
+	7650 1850 7650 1850
+Connection ~ 6550 700 
+Wire Wire Line
+	5450 1300 5200 1300
+Wire Wire Line
+	5200 1300 5200 700 
+Wire Wire Line
+	5200 1400 5200 1800
+Wire Wire Line
+	5200 1400 5450 1400
+Wire Wire Line
+	5450 1700 5200 1700
+Connection ~ 5200 1700
+Wire Wire Line
+	5700 4200 6250 4200
+Wire Wire Line
+	6250 4200 6250 3550
+Wire Wire Line
+	6000 3950 6000 4000
+Connection ~ 7150 3550
+Wire Wire Line
+	6950 3550 8050 3550
+Connection ~ 7750 3550
+Wire Wire Line
+	7450 4050 7450 3950
+Connection ~ 7750 4050
+Wire Wire Line
+	5700 3550 6450 3550
+Wire Wire Line
+	5700 4400 8050 4400
+Wire Wire Line
+	5700 4500 8050 4500
+Wire Wire Line
+	6550 4600 6550 4300
+Connection ~ 6550 4300
+Wire Wire Line
+	7250 4600 7250 4500
+Connection ~ 7250 4500
+Connection ~ 6550 5100
+Wire Notes Line
+	4600 500  4600 7750
+Wire Notes Line
+	500  7750 500  500 
+Wire Notes Line
+	4600 7750 500  7750
+Wire Notes Line
+	4600 2800 11200 2800
+Wire Notes Line
+	11200 2800 11200 500 
+Wire Notes Line
+	11200 500  500  500 
+Connection ~ 1600 3100
+Connection ~ 1600 5450
+$Comp
+L GND-RESCUE-EtherDue #PWR054
+U 1 1 5163C12A
+P 9200 1900
+F 0 "#PWR054" H 9200 1900 30  0001 C CNN
+F 1 "GND" H 9200 1830 30  0001 C CNN
+F 2 "" H 9200 1900 60  0001 C CNN
+F 3 "" H 9200 1900 60  0001 C CNN
+	1    9200 1900
+	1    0    0    -1  
+$EndComp
+Text HLabel 10250 1900 0    60   Input ~ 0
+/MASTER-RESET
+Text GLabel 10250 1800 0    60   Input ~ 0
+JTAG_TMS
+Text GLabel 10250 1700 0    60   Input ~ 0
+JTAG_TCK
+$Comp
+L M04 DEBUG401
+U 1 1 5163C0EA
+P 10550 1600
+F 0 "DEBUG401" H 10450 1700 50  0000 C CNN
+F 1 "M04" H 10450 1200 40  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 10550 1600 60  0001 C CNN
+F 3 "" H 10550 1600 60  0001 C CNN
+	1    10550 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 8800 950  0    100  ~ 0
+Debug Port (SWD)\n
+Text GLabel 3500 2400 2    60   Input ~ 0
+AREF
+Text HLabel 3500 4000 2    60   Input ~ 0
+RX
+Text HLabel 3500 3900 2    60   Input ~ 0
+TX
+NoConn ~ 5450 1600
+$Comp
+L VR VR403
+U 1 1 5163AB3C
+P 7250 4850
+F 0 "VR403" V 7330 4850 50  0000 C CNN
+F 1 "PGB1010603" V 7150 4850 50  0000 C CNN
+F 2 "FT:0603" H 7250 4850 60  0001 C CNN
+F 3 "" H 7250 4850 60  0001 C CNN
+	1    7250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VR VR402
+U 1 1 5163AB38
+P 6900 4850
+F 0 "VR402" V 6980 4850 50  0000 C CNN
+F 1 "PGB1010603" V 6800 4850 50  0000 C CNN
+F 2 "FT:0603" H 6900 4850 60  0001 C CNN
+F 3 "" H 6900 4850 60  0001 C CNN
+	1    6900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VR VR401
+U 1 1 5163AB1A
+P 6550 4850
+F 0 "VR401" V 6630 4850 50  0000 C CNN
+F 1 "PGB1010603" V 6450 4850 50  0000 C CNN
+F 2 "FT:0603" H 6550 4850 60  0001 C CNN
+F 3 "" H 6550 4850 60  0001 C CNN
+	1    6550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-EtherDue #PWR055
+U 1 1 5163AAC5
+P 6250 5350
+F 0 "#PWR055" H 6250 5350 30  0001 C CNN
+F 1 "GND" H 6250 5280 30  0001 C CNN
+F 2 "" H 6250 5350 60  0001 C CNN
+F 3 "" H 6250 5350 60  0001 C CNN
+	1    6250 5350
+	1    0    0    -1  
+$EndComp
+Text HLabel 8050 4500 2    60   Input ~ 0
+UOTGID
+Text HLabel 8050 4400 2    60   Input ~ 0
+D+
+Text HLabel 8050 4300 2    60   Input ~ 0
+D-
+$Comp
+L GND-RESCUE-EtherDue #PWR056
+U 1 1 5163AA5B
+P 8050 4150
+F 0 "#PWR056" H 8050 4150 30  0001 C CNN
+F 1 "GND" H 8050 4080 30  0001 C CNN
+F 2 "" H 8050 4150 60  0001 C CNN
+F 3 "" H 8050 4150 60  0001 C CNN
+	1    8050 4150
+	1    0    0    -1  
+$EndComp
+Text HLabel 8050 3550 2    60   Input ~ 0
+USBVCC
+$Comp
+L R R403
+U 1 1 5163AA02
+P 7750 3800
+F 0 "R403" V 7830 3800 50  0000 C CNN
+F 1 "10K" V 7750 3800 50  0000 C CNN
+F 2 "SM0402_r" H 7750 3800 60  0001 C CNN
+F 3 "" H 7750 3800 60  0001 C CNN
+	1    7750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C403
+U 1 1 5163A9FC
+P 7450 3750
+F 0 "C403" H 7500 3850 50  0000 L CNN
+F 1 "10uF" H 7500 3650 50  0000 L CNN
+F 2 "FT:SM0603_Capa" H 7450 3750 60  0001 C CNN
+F 3 "" H 7450 3750 60  0001 C CNN
+	1    7450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C402
+U 1 1 5163A9FA
+P 7150 3750
+F 0 "C402" H 7200 3850 50  0000 L CNN
+F 1 "10uF" H 7200 3650 50  0000 L CNN
+F 2 "FT:SM0603_Capa" H 7150 3750 60  0001 C CNN
+F 3 "" H 7150 3750 60  0001 C CNN
+	1    7150 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F401
+U 1 1 5163A9E7
+P 6700 3550
+F 0 "F401" H 6800 3600 40  0000 C CNN
+F 1 "500mA PTC 1812" H 6700 3700 40  0000 C CNN
+F 2 "SM1812" H 6700 3550 60  0001 C CNN
+F 3 "" H 6700 3550 60  0001 C CNN
+	1    6700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-EtherDue #PWR057
+U 1 1 5163A829
+P 6000 4000
+F 0 "#PWR057" H 6000 4000 30  0001 C CNN
+F 1 "GND" H 6000 3930 30  0001 C CNN
+F 2 "" H 6000 4000 60  0001 C CNN
+F 3 "" H 6000 4000 60  0001 C CNN
+	1    6000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C401
+U 1 1 5163A817
+P 6000 3750
+F 0 "C401" H 6050 3850 50  0000 L CNN
+F 1 "10nF" H 6050 3650 50  0000 L CNN
+F 2 "SM0402" H 6000 3750 60  0001 C CNN
+F 3 "" H 6000 3750 60  0001 C CNN
+	1    6000 3750
+	-1   0    0    1   
+$EndComp
+Text HLabel 5700 3550 0    60   Input ~ 0
+XUSB
+Text Notes 6150 3150 2    100  ~ 0
+Native USB AB
+$Comp
+L USB_5PIN_SHELL P401
+U 1 1 5163A763
+P 5500 4350
+F 0 "P401" H 5425 4600 60  0000 C CNN
+F 1 "USB_5PIN_SHELL" H 5700 4000 60  0001 C CNN
+F 2 "FT:USB-MICRO_TH_4PEGS" H 5500 4350 60  0001 C CNN
+F 3 "" H 5500 4350 60  0001 C CNN
+	1    5500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-EtherDue #PWR058
+U 1 1 5163A6E8
+P 5200 1800
+F 0 "#PWR058" H 5200 1800 30  0001 C CNN
+F 1 "GND" H 5200 1730 30  0001 C CNN
+F 2 "" H 5200 1800 60  0001 C CNN
+F 3 "" H 5200 1800 60  0001 C CNN
+	1    5200 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR059
+U 1 1 5163A6B3
+P 5200 700
+F 0 "#PWR059" H 5200 660 30  0001 C CNN
+F 1 "+3.3V" H 5200 810 30  0000 C CNN
+F 2 "" H 5200 700 60  0001 C CNN
+F 3 "" H 5200 700 60  0001 C CNN
+	1    5200 700 
+	1    0    0    -1  
+$EndComp
+Text HLabel 7650 1850 2    60   Input ~ 0
+/MASTER-RESET
+Text GLabel 7600 1700 2    60   Input ~ 0
+JTAG_RESET
+Text GLabel 7600 1600 2    60   Input ~ 0
+JTAG_TDI
+Text GLabel 7600 1500 2    60   Input ~ 0
+JTAG_TDO
+Text GLabel 7600 1400 2    60   Input ~ 0
+JTAG_TCK
+Text GLabel 7600 1300 2    60   Input ~ 0
+JTAG_TMS
+$Comp
+L RES_PACK4_IND R401
+U 3 1 5163A5F9
+P 6850 950
+F 0 "R401" H 6600 1000 50  0000 C CNN
+F 1 "100K" H 6850 850 50  0000 C CNN
+F 2 "FT:RES_CAY16" H 6850 950 60  0001 C CNN
+F 3 "" H 6850 950 60  0001 C CNN
+	3    6850 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RES_PACK4_IND R401
+U 4 1 5163A5F8
+P 7250 950
+F 0 "R401" H 7000 1000 50  0000 C CNN
+F 1 "100K" H 7250 850 50  0000 C CNN
+F 2 "FT:RES_CAY16" H 7250 950 60  0001 C CNN
+F 3 "" H 7250 950 60  0001 C CNN
+	4    7250 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RES_PACK4_IND R401
+U 2 1 5163A5F1
+P 6550 950
+F 0 "R401" H 6300 1000 50  0000 C CNN
+F 1 "100K" H 6550 850 50  0000 C CNN
+F 2 "FT:RES_CAY16" H 6550 950 60  0001 C CNN
+F 3 "" H 6550 950 60  0001 C CNN
+	2    6550 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RES_PACK4_IND R401
+U 1 1 5163A5E6
+P 6250 950
+F 0 "R401" H 6000 1000 50  0000 C CNN
+F 1 "100K" H 6250 850 50  0000 C CNN
+F 2 "FT:RES_CAY16" H 6250 950 60  0001 C CNN
+F 3 "" H 6250 950 60  0001 C CNN
+	1    6250 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M02X05 JP401
+U 1 1 5163A5C8
+P 5750 1300
+F 0 "JP401" H 5650 1400 50  0000 C CNN
+F 1 "JTAG" H 5700 800 40  0000 C CNN
+F 2 "FT:2X5_127MMPITCH" H 5750 1300 60  0001 C CNN
+F 3 "" H 5750 1300 60  0001 C CNN
+	1    5750 1300
+	1    0    0    -1  
+$EndComp
+Text Notes 5000 750  2    100  ~ 0
+JTAG
+Text Notes 850  1000 0    100  ~ 0
+Arduino Headers\n
+Text GLabel 2400 1800 0    60   Input ~ 0
+MISO
+Text GLabel 2400 1900 0    60   Input ~ 0
+SCK
+Text HLabel 1500 2000 0    60   Input ~ 0
+/MASTER-RESET
+Text GLabel 3500 1900 2    60   Input ~ 0
+MOSI
+$Comp
+L +5V #PWR060
+U 1 1 5163A501
+P 3650 1750
+F 0 "#PWR060" H 3650 1840 20  0001 C CNN
+F 1 "+5V" H 3650 1840 30  0000 C CNN
+F 2 "" H 3650 1750 60  0001 C CNN
+F 3 "" H 3650 1750 60  0001 C CNN
+	1    3650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-EtherDue #PWR061
+U 1 1 5163A45D
+P 4350 2250
+F 0 "#PWR061" H 4350 2250 30  0001 C CNN
+F 1 "GND" H 4350 2180 30  0001 C CNN
+F 2 "" H 4350 2250 60  0001 C CNN
+F 3 "" H 4350 2250 60  0001 C CNN
+	1    4350 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 3500 2300 2    60   Input ~ 0
+SDA1
+Text GLabel 3500 2200 2    60   Input ~ 0
+SCL1
+Text GLabel 3500 2600 2    60   Input ~ 0
+PWM13
+Text GLabel 3500 2700 2    60   Input ~ 0
+PWM12
+Text GLabel 3500 2800 2    60   Input ~ 0
+PWM11
+Text GLabel 3500 2900 2    60   Input ~ 0
+SS0/PWM10
+Text GLabel 3500 3000 2    60   Input ~ 0
+PWM9
+Text GLabel 3500 3100 2    60   Input ~ 0
+PWM8
+Text GLabel 3500 3300 2    60   Input ~ 0
+PWM7
+Text GLabel 3500 3400 2    60   Input ~ 0
+PWM6
+Text GLabel 3500 3500 2    60   Input ~ 0
+PWM5
+Text GLabel 3500 3600 2    60   Input ~ 0
+SS1/PWM4
+Text GLabel 3500 3700 2    60   Input ~ 0
+PWM3
+Text GLabel 3500 3800 2    60   Input ~ 0
+PWM2
+Text GLabel 3500 4900 2    60   Input ~ 0
+SCL0-3
+Text GLabel 3500 4800 2    60   Input ~ 0
+SDA0-3
+Text GLabel 3500 4300 2    60   Input ~ 0
+RXD0
+Text GLabel 3500 4200 2    60   Input ~ 0
+TXD0
+Text GLabel 3500 4500 2    60   Input ~ 0
+RXD1
+Text GLabel 3500 4400 2    60   Input ~ 0
+TXD1
+Text GLabel 3500 4700 2    60   Input ~ 0
+RXD2
+Text GLabel 3500 4600 2    60   Input ~ 0
+TXD2
+Text GLabel 3500 6950 2    60   Input ~ 0
+PIN37
+Text GLabel 3500 6850 2    60   Input ~ 0
+PIN36
+Text GLabel 3500 6750 2    60   Input ~ 0
+PIN35
+Text GLabel 3500 6650 2    60   Input ~ 0
+PIN34
+Text GLabel 3500 6550 2    60   Input ~ 0
+PIN33
+Text GLabel 3500 6450 2    60   Input ~ 0
+PIN32
+Text GLabel 3500 6350 2    60   Input ~ 0
+PIN31
+Text GLabel 3500 6250 2    60   Input ~ 0
+PIN30
+Text GLabel 3500 6100 2    60   Input ~ 0
+PIN29
+Text GLabel 3500 6000 2    60   Input ~ 0
+PIN28
+Text GLabel 3500 5900 2    60   Input ~ 0
+PIN27
+Text GLabel 3500 5800 2    60   Input ~ 0
+PIN26
+Text GLabel 3500 5700 2    60   Input ~ 0
+PIN25
+Text GLabel 3500 5600 2    60   Input ~ 0
+PIN24
+Text GLabel 3500 5500 2    60   Input ~ 0
+PIN23
+Text GLabel 3500 5400 2    60   Input ~ 0
+PIN22
+$Comp
+L +5V #PWR062
+U 1 1 5163A3BC
+P 3750 5200
+F 0 "#PWR062" H 3750 5290 20  0001 C CNN
+F 1 "+5V" H 3750 5290 30  0000 C CNN
+F 2 "" H 3750 5200 60  0001 C CNN
+F 3 "" H 3750 5200 60  0001 C CNN
+	1    3750 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1600 5600 0    60   Input ~ 0
+CANTX1/IO
+Text GLabel 1600 5700 0    60   Input ~ 0
+AD14/RXD3
+Text GLabel 1600 5800 0    60   Input ~ 0
+PIN51
+Text GLabel 1600 5900 0    60   Input ~ 0
+PIN50
+Text GLabel 1600 6050 0    60   Input ~ 0
+PIN49
+Text GLabel 1600 6150 0    60   Input ~ 0
+PIN48
+Text GLabel 1600 6250 0    60   Input ~ 0
+PIN47
+Text GLabel 1600 6350 0    60   Input ~ 0
+PIN46
+Text GLabel 1600 6450 0    60   Input ~ 0
+PIN45
+Text GLabel 1600 6550 0    60   Input ~ 0
+PIN44
+Text GLabel 1600 6650 0    60   Input ~ 0
+PIN43
+Text GLabel 1600 6750 0    60   Input ~ 0
+PIN42
+Text GLabel 1600 6900 0    60   Input ~ 0
+PIN41
+Text GLabel 1600 7000 0    60   Input ~ 0
+PIN40
+Text GLabel 1600 7100 0    60   Input ~ 0
+PIN39
+Text GLabel 1600 7200 0    60   Input ~ 0
+PIN38
+$Comp
+L GND-RESCUE-EtherDue #PWR063
+U 1 1 5163A2E9
+P 1300 5400
+F 0 "#PWR063" H 1300 5400 30  0001 C CNN
+F 1 "GND" H 1300 5330 30  0001 C CNN
+F 2 "" H 1300 5400 60  0001 C CNN
+F 3 "" H 1300 5400 60  0001 C CNN
+	1    1300 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 1600 5100 0    60   Input ~ 0
+CANTX0
+Text GLabel 1600 5000 0    60   Input ~ 0
+CANRX0
+Text GLabel 1600 4900 0    60   Input ~ 0
+DAC1
+Text GLabel 1600 4800 0    60   Input ~ 0
+DAC0/CANRX1
+Text GLabel 1600 4700 0    60   Input ~ 0
+AD11/TXD3
+Text GLabel 1600 4600 0    60   Input ~ 0
+AD10
+Text GLabel 1600 4500 0    60   Input ~ 0
+AD9
+Text GLabel 1600 4400 0    60   Input ~ 0
+AD8
+Text GLabel 1600 4200 0    60   Input ~ 0
+AD7
+Text GLabel 1600 4100 0    60   Input ~ 0
+AD6
+Text GLabel 1600 4000 0    60   Input ~ 0
+AD5
+Text GLabel 1600 3900 0    60   Input ~ 0
+AD4
+Text GLabel 1600 3800 0    60   Input ~ 0
+AD3
+Text GLabel 1600 3700 0    60   Input ~ 0
+AD2
+Text GLabel 1600 3600 0    60   Input ~ 0
+AD1
+Text GLabel 1600 3500 0    60   Input ~ 0
+AD0
+$Comp
+L GND-RESCUE-EtherDue #PWR064
+U 1 1 5163A27D
+P 1150 3200
+F 0 "#PWR064" H 1150 3200 30  0001 C CNN
+F 1 "GND" H 1150 3130 30  0001 C CNN
+F 2 "" H 1150 3200 60  0001 C CNN
+F 3 "" H 1150 3200 60  0001 C CNN
+	1    1150 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 2550 1    60   Input ~ 0
+VIN
+$Comp
+L +5V #PWR065
+U 1 1 5163A22B
+P 1150 2550
+F 0 "#PWR065" H 1150 2640 20  0001 C CNN
+F 1 "+5V" H 1150 2640 30  0000 C CNN
+F 2 "" H 1150 2550 60  0001 C CNN
+F 3 "" H 1150 2550 60  0001 C CNN
+	1    1150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR066
+U 1 1 5163A1AD
+P 1300 2550
+F 0 "#PWR066" H 1300 2510 30  0001 C CNN
+F 1 "+3.3V" H 1300 2660 30  0000 C CNN
+F 2 "" H 1300 2550 60  0001 C CNN
+F 3 "" H 1300 2550 60  0001 C CNN
+	1    1300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L ARDUINO_DUE_SHIELD SHIELD401
+U 1 1 5163A103
+P 2600 4750
+F 0 "SHIELD401" H 2200 7400 60  0000 C CNN
+F 1 "ARDUINO_DUE_SHIELD" H 2500 2050 60  0000 C CNN
+F 2 "FT:ARDUINO_DUE_SHIELD" H 2600 4750 60  0001 C CNN
+F 3 "" H 2600 4750 60  0001 C CNN
+	1    2600 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 3100 1150 3200
+$Comp
+L SJ SJ401
+U 1 1 51B06F1B
+P 7450 1850
+F 0 "SJ401" H 7350 1700 70  0000 L BNN
+F 1 "CLOSED" H 7350 1900 30  0000 L BNN
+F 2 "FT:SJ_SHORTED" H 7450 1850 60  0001 C CNN
+F 3 "~" H 7450 1850 60  0000 C CNN
+	1    7450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C404
+U 1 1 55538458
+P 6250 2000
+F 0 "C404" H 6300 2100 50  0000 L CNN
+F 1 "22pF" H 6300 1900 50  0000 L CNN
+F 2 "FT:C0402" H 6250 2000 60  0001 C CNN
+F 3 "" H 6250 2000 60  0001 C CNN
+	1    6250 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C405
+U 1 1 5553854F
+P 6550 2000
+F 0 "C405" H 6600 2100 50  0000 L CNN
+F 1 "22pF" H 6600 1900 50  0000 L CNN
+F 2 "FT:C0402" H 6550 2000 60  0001 C CNN
+F 3 "" H 6550 2000 60  0001 C CNN
+	1    6550 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C406
+U 1 1 55538595
+P 6850 2000
+F 0 "C406" H 6900 2100 50  0000 L CNN
+F 1 "22pF" H 6900 1900 50  0000 L CNN
+F 2 "FT:C0402" H 6850 2000 60  0001 C CNN
+F 3 "" H 6850 2000 60  0001 C CNN
+	1    6850 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C407
+U 1 1 555385D7
+P 7150 2000
+F 0 "C407" H 7200 2100 50  0000 L CNN
+F 1 "22pF" H 7200 1900 50  0000 L CNN
+F 2 "FT:C0402" H 7150 2000 60  0001 C CNN
+F 3 "" H 7150 2000 60  0001 C CNN
+	1    7150 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6250 2200 6250 2300
+Wire Wire Line
+	6250 2300 7150 2300
+Wire Wire Line
+	6550 2200 6550 2400
+Wire Wire Line
+	6850 2300 6850 2200
+Connection ~ 6550 2300
+Wire Wire Line
+	7150 2300 7150 2200
+Connection ~ 6850 2300
+$Comp
+L GND-RESCUE-EtherDue #PWR067
+U 1 1 5553A639
+P 6550 2400
+F 0 "#PWR067" H 6550 2400 30  0001 C CNN
+F 1 "GND" H 6550 2330 30  0001 C CNN
+F 2 "" H 6550 2400 60  0001 C CNN
+F 3 "" H 6550 2400 60  0001 C CNN
+	1    6550 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1800 7150 1500
+Connection ~ 7150 1500
+$EndSCHEMATC

@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NMOSFET2
+D N channel MOSFET, generic footprint
+$ENDCMP
+#
+$CMP PMOSFET2
+D P channel MOSFET, generic footprint
+$ENDCMP
+#
+#End Doc Library
