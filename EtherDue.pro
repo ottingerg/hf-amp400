@@ -1,4 +1,4 @@
-update=Don 08 Okt 2015 10:01:10 CEST
+update=Mi 25 Dez 2019 10:40:44 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -28,16 +28,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.4
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.09999999999999999
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=./20150308.4-sch-pdf-bw
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=libs/symbols/freetronics;libs/symbols/lib_w_logic;libs/symbols/lib_w_transistor;libs/symbols/zeilhofer.co.at;libs/footprints/Capacitors_SMD.pretty
@@ -85,3 +75,13 @@ LibName40=libs/symbols/zeilhofer.co.at/zeilhofer
 LibName41=libs/symbols/lib_w_transistor/w_transistor
 LibName42=libs/symbols/lib_w_logic/w_logic
 LibName43=libs/w_memory
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=./20150308.4-sch-pdf-bw
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

@@ -8,35 +8,6 @@ LIBS:EtherDue_MCU-cache
 LIBS:EtherDue_Mega16U2-cache
 LIBS:EtherDue_peripherals-cache
 LIBS:EtherDue_Power-cache
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:zeilhofer
 LIBS:w_transistor
 LIBS:w_logic
@@ -45,7 +16,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 20
+Sheet 18 20
 Title "High Frequency Power Amplifier Monitor on EtherDue"
 Date "2015-03-07"
 Rev "20150308.4"
@@ -695,7 +666,7 @@ Wire Wire Line
 	6450 2750 6450 950 
 Connection ~ 6450 950 
 Wire Wire Line
-	6100 3250 6100 2550
+	6100 1650 6100 3250
 Connection ~ 6100 2550
 Wire Wire Line
 	6100 3750 6100 3800
@@ -1002,4 +973,21 @@ Wire Wire Line
 	2150 5000 2450 5000
 Wire Wire Line
 	2150 5750 2050 5750
+$Comp
+L R R1712
+U 1 1 5A0EEDEE
+P 6100 1400
+AR Path="/54EFA122/5A0EEDEE" Ref="R1712"  Part="1" 
+AR Path="/54FB135E/5A0EEDEE" Ref="R1812"  Part="1" 
+AR Path="/54FB5450/5A0EEDEE" Ref="R1912"  Part="1" 
+F 0 "R1712" V 6180 1400 50  0000 C CNN
+F 1 "4k7" V 6107 1401 50  0000 C CNN
+F 2 "FT:0603" V 6030 1400 30  0000 C CNN
+F 3 "" H 6100 1400 30  0000 C CNN
+	1    6100 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1150 6100 950 
+Connection ~ 6100 950 
 $EndSCHEMATC
